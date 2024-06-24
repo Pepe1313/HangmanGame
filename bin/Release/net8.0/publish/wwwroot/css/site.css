@@ -1,0 +1,68 @@
+/* Allgemeines Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Spielheader */
+.game-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Wortanzeige */
+.game-word {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Anzeige der verbleibenden Versuche */
+.guesses-left {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Nachrichtenanzeige */
+.game-message {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* Nachrichtenanzeige für Spielende */
+.game-over-message {
+    font-size: 20px;
+    color: red;
+    margin-top: 20px;
+}
+
+/* Button-Stil */
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

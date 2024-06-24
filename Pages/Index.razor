@@ -1,0 +1,92 @@
+@page "/"
+
+<div class="game-container">
+    <h3 class="game-header">Hangman Game</h3>
+
+    <p class="game-word">Word: @GetDisplayWord()</p>
+    <p class="guesses-left">Guesses Left: @guessesLeft</p>
+
+    <div class="game-buttons">
+        @foreach (var letter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+        {
+            <button @onclick="() => GuessLetter(letter)" class="button" disabled="@guessedLetters.Contains(letter)">
+                @letter
+            </button>
+        }
+    </div>
+
+    <p class="game-message">@message</p>
+
+    @if (gameOver)
+    {
+        <p class="game-over-message">Game Over! The word was '@wordToGuess'.</p>
+        <button @onclick="StartNewGame" class="button">Start New Game</button>
+    }
+</div>
+
+@code {
+    private string[] words = { "HANGMAN", "BLAZOR", "MICROSOFT", "DEVELOPER", "CSHARP" };
+    private string wordToGuess = string.Empty;
+    private char[] displayWord = Array.Empty<char>();
+    private int guessesLeft;
+    private HashSet<char> guessedLetters = new HashSet<char>();
+    private string message = string.Empty;
+    private bool gameOver;
+
+    protected override void OnInitialized()
+    {
+        StartNewGame();
+    }
+
+    private void StartNewGame()
+    {
+        var random = new Random();
+        wordToGuess = words[random.Next(words.Length)].ToUpper();
+        displayWord = new string('_', wordToGuess.Length).ToCharArray();
+        guessesLeft = 6;
+        guessedLetters.Clear();
+        message = "Guess a letter!";
+        gameOver = false;
+    }
+
+    private void GuessLetter(char letter)
+    {
+        if (gameOver || guessedLetters.Contains(letter))
+        {
+            return;
+        }
+
+        guessedLetters.Add(letter);
+
+        if (wordToGuess.Contains(letter))
+        {
+            for (int i = 0; i < wordToGuess.Length; i++)
+            {
+                if (wordToGuess[i] == letter)
+                {
+                    displayWord[i] = letter;
+                }
+            }
+
+            if (!displayWord.Contains('_'))
+            {
+                message = "You win!";
+                gameOver = true;
+            }
+        }
+        else
+        {
+            guessesLeft--;
+            if (guessesLeft == 0)
+            {
+                message = "You lost!";
+                gameOver = true;
+            }
+        }
+    }
+
+    private string GetDisplayWord()
+    {
+        return new string(displayWord);
+    }
+}

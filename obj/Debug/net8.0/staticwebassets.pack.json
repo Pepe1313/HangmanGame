@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\obj\\Debug\\net8.0\\compressed\\zdwe31l6um.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HangmanGame.styles.css",
+      "PackagePath": "staticwebassets\\HangmanGame.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\pepef\\HangmanGame\\HangmanGame\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HangmanGame.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HangmanGame.props",
+      "PackagePath": "build\\HangmanGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HangmanGame.props",
+      "PackagePath": "buildMultiTargeting\\HangmanGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HangmanGame.props",
+      "PackagePath": "buildTransitive\\HangmanGame.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
