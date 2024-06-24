@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "HangmanGame",
   "resources": {
-    "hash": "sha256-7Dt1Dc0jKohjkF+ygYQBv6vQSGW4P7b+D68/7SX9VvU=",
+    "hash": "sha256-dO+jDuUj0ph1pWnEgjy9UYAwXw9OPKCzKreEPDKoo4o=",
     "jsModuleNative": {
       "dotnet.native.8.0.6.kwa47xcgc3.js": "sha256-YU6M9+jtDVnB8/wtrgIndOstzNh778Ls8g9XnbjorSk="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "HangmanGame.wasm": "sha256-865zsMZgdSqif+Uri5a6Fk+5tOQiOmHD6yZ4wlgCl4U=",
+      "HangmanGame.wasm": "sha256-UXebo3VHuvRvqnyU87AQxKTxHJJqURYB5Ltl2LEgEO4=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-M98aXkAdAUStGxgHw/qiwIvWPbEP7yR1DB0QAvfuiU8=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-4tmx4uC98MyKjCuM9ErBZwXpqkLx4fwVZfJQIv+Y0+A=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-LYJGTqka6p2RaQhwjm0nbX5muzjO6rM8oTE9uoUmGBs=",

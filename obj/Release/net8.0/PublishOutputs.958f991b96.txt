@@ -1,1 +1,4 @@
+C:\Users\pepef\HangmanGame\HangmanGame\publish\publish\web.config
+C:\Users\pepef\HangmanGame\HangmanGame\publish\publish\wwwroot\sample-data\weather.json
+C:\Users\pepef\HangmanGame\HangmanGame\publish\publish\wwwroot\_framework\blazor.boot.json
 C:\Users\pepef\HangmanGame\HangmanGame\publish\web.config

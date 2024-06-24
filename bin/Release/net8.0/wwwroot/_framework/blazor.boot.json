@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "HangmanGame",
   "resources": {
-    "hash": "sha256-T1ehPzfpujSDDV3GPaY5WtrGzN4OVJBD/W+Axt+ZXBs=",
+    "hash": "sha256-GfGcZizILh9xv2atIlUubblsanYwUhyr4wSzocVysiM=",
     "jsModuleNative": {
       "dotnet.native.8.0.6.kwa47xcgc3.js": "sha256-YU6M9+jtDVnB8/wtrgIndOstzNh778Ls8g9XnbjorSk="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-masKveCdoRSahF99doEQk7H3YN2wHLVIE4M/Zu8OoD8=",
       "netstandard.wasm": "sha256-z1EJOmgVhSpTopn7Tek/0P//MKGF1I3NUD/sh4oLnwY=",
       "System.Private.CoreLib.wasm": "sha256-tuIWpR30u0OoEVtv4pXZ47mEpI2AmFBIyYFPnqDZZfw=",
-      "HangmanGame.wasm": "sha256-865zsMZgdSqif+Uri5a6Fk+5tOQiOmHD6yZ4wlgCl4U="
+      "HangmanGame.wasm": "sha256-UXebo3VHuvRvqnyU87AQxKTxHJJqURYB5Ltl2LEgEO4="
     },
     "pdb": {
-      "HangmanGame.pdb": "sha256-oiXKrp5cX0ZHMWEQllgCDjQ4SXRdQs/E3ocX24aRPuw="
+      "HangmanGame.pdb": "sha256-1KK6FFyxD22Dk6xNIQ+hN3BMaDJ6tyX61QFzlQQvD4c="
     }
   },
   "cacheBootResources": true,
